@@ -7,7 +7,7 @@ A collection of AspectJ aspects applicable for [service-call-tracker](https://gi
 Mark any method with the annotation `@SctInterceptForTest` and marshall and replay method calls with 
 *service-call-tracker*.
 
-** API with annotation**
+**API with annotation**
 
 ```xml
 <dependency>
@@ -17,7 +17,7 @@ Mark any method with the annotation `@SctInterceptForTest` and marshall and repl
 </dependency>
 ```
   
-** AspectJ aspect**
+**AspectJ aspect**
 
 ```xml
 <dependency>
