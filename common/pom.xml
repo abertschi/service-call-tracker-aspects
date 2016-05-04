@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ch.abertschi.sct</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <artifactId>sct-aspects-parent</artifactId>
+    </parent>
+
+    <artifactId>sct-aspects-common</artifactId>
+
+    <dependencies>
+        <dependency>
+            <artifactId>service-call-tracker-api</artifactId>
+            <groupId>ch.abertschi.sct</groupId>
+        </dependency>
+
+        <dependency>
+            <artifactId>service-call-tracker-impl</artifactId>
+            <groupId>ch.abertschi.sct</groupId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+    </dependencies>
+</project>

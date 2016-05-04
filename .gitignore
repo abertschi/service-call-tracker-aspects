@@ -1,0 +1,22 @@
+# .gitignore
+## folders
+target
+.settings
+bin
+CVS
+
+
+## files
+.classpath
+.project
+cvslog.*
+*~
+*.old
+*.exe
+*.bak
+*.BAK
+*.prefs
+.cvsignore
+pom.xml.versionsBackup
+*.iml
+.idea
