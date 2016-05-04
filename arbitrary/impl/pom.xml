@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+
     <artifactId>sct-aspects-arbitrary-impl</artifactId>
 
     <dependencies>
@@ -21,8 +22,10 @@
         <dependency>
             <artifactId>sct-aspects-common</artifactId>
             <groupId>ch.abertschi.sct</groupId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
+
+
     </dependencies>
 
     <build>
