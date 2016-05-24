@@ -12,10 +12,15 @@ import org.aspectj.lang.annotation.Aspect;
 @Aspect
 public class ArbitraryMethodIntercepting extends SctBaseIntercepting
 {
-
     @Override
     @Around("call(@ch.abertschi.sct.aspect.SctInterceptForTest * *(..))")
     public Object aroundInvoke(final ProceedingJoinPoint method) throws Throwable
+    {
+        return super.aroundInvoke(method);
+    }
+
+    @Around("call(@ch.abertschi.sct.aspect.RecordAndReplay * *(..))")
+    public Object recordAndReplay(final ProceedingJoinPoint method) throws Throwable
     {
         return super.aroundInvoke(method);
     }
